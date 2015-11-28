@@ -1,9 +1,8 @@
 # perltest
 
 
-´
-perl Makefile.PL
-make
-make test
-make install
-´
+- perl Makefile.PL
+- make
+- make test
+- make install
+
