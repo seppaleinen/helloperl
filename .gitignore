@@ -5,3 +5,5 @@ Makefile*
 pm_to_blib
 _site
 .sass-cache
+Gemfile.lock
+*.iml
