@@ -1,5 +1,5 @@
 # Site settings
-#title: Perl helloworld
+title: Perl helloworld
 email: davideriksson@swedenmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Just a project for messing around with perl.
