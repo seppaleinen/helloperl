@@ -6,6 +6,15 @@ use warnings;
 use 5.012;
 use HelloWorld;
 
-my $var = HelloWorld::argumentTest(@ARGV);
+my $arg=undef;
+
+#Check list if empty
+if(@ARGV) {
+    $arg=$ARGV[0];
+} else {
+    $arg=<>;
+}
+
+my $var = HelloWorld::argumentTest($arg);
 #Same as print but with newline
 say "$var";
