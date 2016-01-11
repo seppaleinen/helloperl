@@ -11,18 +11,11 @@
 
 
 
-`
+###Commands 
+```
 perl Makefile.PL
-`
-`
 make
-`
-`
 make clean
-`
-`
 make test
-`
-`
 make install
-`
+```
