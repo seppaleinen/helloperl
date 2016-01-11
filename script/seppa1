@@ -2,8 +2,10 @@
 
 use strict;
 use warnings;
-
+#Use functions from perl 5.012
+use 5.012;
 use HelloWorld;
 
 my $var = HelloWorld::argumentTest(@ARGV);
-print "$var";
+#Same as print but with newline
+say "$var";
